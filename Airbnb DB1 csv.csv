@@ -1,0 +1,37 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Text Area 1,Text Area 2,Text Area 3,Text Area 4,Text Area 5,Text Area 6,Text Area 7,Text Area 8,Text Area 9,Text Area 10,Text Area 11,Text Area 12,Text Area 13,Text Area 14,Text Area 15,Text Area 16,Text Area 17,Text Area 18,Text Area 19,Text Area 20,Text Area 21
+1,Page,,,,,,,,,Database ER diagram (crow's foot),,,,,,,,,,,,,,,,,,,,
+2,Text,Standard,1,,28,,,,,Airbnb DB1,,,,,,,,,,,,,,,,,,,,
+3,Text,Standard,1,,28,,,,,"Anh Phan  |  October 22, 2020",,,,,,,,,,,,,,,,,,,,
+4,Rectangle Container,Flowchart Shapes,1,,29,,,,,,,,,,,,,,,,,,,,,,,,,
+5,Text,Standard,1,4,29,,,,,Learn how to edit ERD shapes,,,,,,,,,,,,,,,,,,,,
+6,Text,Standard,1,4,29,,,,,"To manually customize this ERD:
+Double-click on any text in an entity shape and add/edit text by typing.
+Click on an entity shape and toggle the amount of fields using the advanced shape bar at the top of the canvas.
+Add and remove lines to show relationships between entities.
+To update cardinality, click on a line and then click ""Endpoint"" on the properties bar at the top of the canvas.  
+To automatically create your own ERD:
+Click ""     Import Data"" in the Entity Relationship shape library to the left of the canvas.",,,,,,,,,,,,,,,,,,,,
+7,Text,Standard,1,4,29,,,,,"Tutorials (Hold Shift + ⌘ or Ctrl, then click)",,,,,,,,,,,,,,,,,,,,
+8,SVGPathBlock2,,1,4,30,,,,,,,,,,,,,,,,,,,,,,,,,
+9,Button,UI Mockups,1,4,29,,,,,Read about how to create entity relationship diagrams,,,,,,,,,,,,,,,,,,,,
+10,Button,UI Mockups,1,4,29,,,,,Watch a tutorial on how to import  your ERD,,,,,,,,,,,,,,,,,,,,
+11,Button,UI Mockups,1,4,29,,,,,Watch a tutorial on how to export  your ERD,,,,,,,,,,,,,,,,,,,,
+12,Button,UI Mockups,1,4,29,,,,,Read about ERD symbols and notation,,,,,,,,,,,,,,,,,,,,
+13,Button,UI Mockups,1,4,29,,,,,"See an example (Hold Shift + ⌘ or Ctrl, then click)",,,,,,,,,,,,,,,,,,,,
+14,Button,UI Mockups,1,4,29,,,,,Watch Lucidchart basic tutorials,,,,,,,,,,,,,,,,,,,,
+15,User Image,User Images,1,4,29,,,,,,,,,,,,,,,,,,,,,,,,,
+16,Entity,Entity Relationship,1,,,,,,,listing_summary,id,name,host_id,host_name,neighbourhood,latitude,longitude,room_type,price,minimun_nights,number_of_reviews,last_review,reviews_per_month,calculated_host_listings_count,availability_365,,,,,
+17,Entity,Entity Relationship,1,,,,,,,host,id,host_id,host_name,host_since,host_location,host_response_time,host_response_rate,host_acceptance_rate,host_is_superhost,host_neighbourhood,host_total_listings_count,host_verifications,host_has_profile_pic,host_identity_verified,,,,,,
+18,Entity,Entity Relationship,1,,,,,,,property_features,id,street,neighbourhood,city,state,zipcode,country_code,country,latitude,longitude,is_location_exact,property_type,room_type,accommodates,bathrooms,bedrooms,beds,bed_type,amenities,square_feet
+19,Entity,Entity Relationship,1,,,,,,,property_prices,id,price,weekly_price,monthly_price,security_deposit,cleaning_fee,guests_included,extra_people,minimum_nights,maximum_nights,has_availability,availability_30,availability_60,availability_90,availability_365,calendar_last_scraped,,,,
+20,Entity,Entity Relationship,1,,,,,,,property_reviews,id,number_of_reviews,first_review,last_review,review_scores_rating,review_scores_accuracy,review_scores_cleanliness,review_scores_checkin,review_scores_communication,review_scores_location,review_scores_value,instant_bookable,cancellation_policy,require_guest_pofile_picture,require_guest_phone_verification,calculated_host_listings_count,reviews_per_month,,,
+21,Line,,1,,28,2,2,None,None,,,,,,,,,,,,,,,,,,,,,
+22,Line,,1,,,16,17,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,
+23,Line,,1,,,16,17,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,
+24,Line,,1,,,16,17,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,
+25,Line,,1,,,18,16,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,
+26,Line,,1,,,19,16,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,
+27,Line,,1,,,20,16,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,
+28,Group 1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,Group 2,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,Group 3,,1,,29,,,,,,,,,,,,,,,,,,,,,,,,,
