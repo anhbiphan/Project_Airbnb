@@ -31,4 +31,7 @@ listing_summary.info()
 
 
 # save cleaned dataframe
-# listing_summary.to_csv("1_listings_sum_clean.csv", index=False)
+listing_summary.to_csv("1_listings_sum_clean.csv", index=False)
+
+
+
