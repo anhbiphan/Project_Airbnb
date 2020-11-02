@@ -28,9 +28,6 @@ df.info()
 df[['host_is_superhost', 'host_has_profile_pic', 'host_identity_verified']]
 
 
-for i in df[]
-
-
 df.to_csv('2_host_unique.csv', index= False)
 
 
